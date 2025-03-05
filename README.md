@@ -1,4 +1,4 @@
 # notta
 
 ### E-Ink Devices
-[Remarkable 2](/temando/Remarkable%202.md)
+[Remarkable 2](/temando/Remarkable-02.md)

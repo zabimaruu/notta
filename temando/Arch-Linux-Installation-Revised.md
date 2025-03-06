@@ -5,6 +5,7 @@ The following notes are just for me to remember when installing *Arch*
 2. Run `lsblk` to get the name of the disk you will be using, usually it is most of the time `nvme0n1` 
 3. Create the needed partitions by using `fdisk` 
 	1. **Note:** *This partition assumes that I am going to be installing only Arch, not dual booting at all, for dual booting. I might need to create a another EFI partition, never use the EFI partition windows/macos creates*
+
 ```bash
 gdisk /dev/nvme0n1 # run `lsblk` to see what label your drive obtained
 
@@ -49,6 +50,7 @@ Look up "luks"
 Finally, type "w" to save all changes to the disk
 Press "Y" to confirm the changes
 ```
+
 4. **Encrypting disk LVM** as of now, I been using **LVM** and it has been working fine
 	1. Run `cryptsetup luksFormat /dev/nvme0n1p2 # Change drive label accordantly`
 	2. Enter a secure passwd `12345678 wink wink`

@@ -6,7 +6,7 @@ The following notes are just for me to remember when installing *Arch*
 3. Create the needed partitions by using `fdisk` 
 	1. **Note:** *This partition assumes that I am going to be installing only Arch, not dual booting at all, for dual booting. I might need to create a another EFI partition, never use the EFI partition windows/macos creates*
 
-```bash
+```
 gdisk /dev/nvme0n1 # run `lsblk` to see what label your drive obtained
 
 p # Shows which partition there are
@@ -84,7 +84,7 @@ Press "Y" to confirm the changes
 		7. `mkdir /mnt/boot/efi` to be able to mount the `efi` partition
 		8. `mount /dev/nvme0n1p1 /mnt/boot/efi` to mount the `efi` partition
 	9.  Install **bootstrap** apps and kernel
-```bash
+```
 pacstrap -K /mnt base base-devel linux linux-lts linux-headers linux-lts-headers linux-firmware git lvm2 networkmanager openssh os-prober sudo grub efibootmgr vim neovim nano man zsh ranger tmux bash 
 ```
 **Note:** This will take sometime to complete
@@ -103,7 +103,7 @@ pacstrap -K /mnt base base-devel linux linux-lts linux-headers linux-lts-headers
 11. Create `hostname` name it something like `Arch`
 	1. `nvim /etc/hostname` input `Arch` 
 12. Edit `/etc/mkinitcpio.conf` and run/input the following
-```bash
+```
 nvim /etc/mkinitcpio.conf
 Add "encrypt lvm2" in between "block and filesystems"
 
@@ -129,7 +129,7 @@ mkinitcpio -p linux-lts
 	1. `mkinitcpio -p linux`
 	2. `mkinitcpio -p linux-lts`
 17. Lastly, enable some essential systems
-```bash
+```
 # Install display manager
 pacman -S sddm
 # Install Microcode updates for CPU

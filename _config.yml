@@ -9,4 +9,4 @@ minima:
   skin: dark
   data_format: "%b %-d, %Y"
   social_links:
-    - { platform: github, user_url: "https://github.com/zabimaruu/notta"}
+    - { platform: github, user_url: "https://github.com/zabimaruu" }

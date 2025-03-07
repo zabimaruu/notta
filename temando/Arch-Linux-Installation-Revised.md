@@ -1,3 +1,5 @@
+[Go Back](/temando/)
+
 ## Installation
 As usual the *wiki* has it all, so follow it [Arch Wiki](https://wiki.archlinux.org/title/Installation_guide)
 The following notes are just for me to remember when installing *Arch*

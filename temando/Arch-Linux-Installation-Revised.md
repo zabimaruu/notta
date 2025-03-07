@@ -131,6 +131,7 @@ mkinitcpio -p linux-lts
 	1. `mkinitcpio -p linux`
 	2. `mkinitcpio -p linux-lts`
 17. Lastly, enable some essential systems
+
 ```
 # Install display manager
 pacman -S sddm

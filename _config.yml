@@ -1,4 +1,4 @@
-remote_theme: "jekyll/minima"
+theme: minima
 
 tittle: Public Nottas
 

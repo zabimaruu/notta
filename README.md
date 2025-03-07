@@ -9,3 +9,4 @@
 ### Awesome
 - [Cross-Platform Application](/temando/Cross-Platform-Applications.md)
 - [Github Repos To Keep An Eye On](/temando/Awesome-Github-Repos-To-Keep-An-Eye-On.md)
+- [Debian Fresh Installation Essentials](/temando/Debia-Essentials-FreshInstallation.md)

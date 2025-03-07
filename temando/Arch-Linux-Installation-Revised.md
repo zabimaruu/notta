@@ -86,9 +86,11 @@ Press "Y" to confirm the changes
 		7. `mkdir /mnt/boot/efi` to be able to mount the `efi` partition
 		8. `mount /dev/nvme0n1p1 /mnt/boot/efi` to mount the `efi` partition
 	9.  Install **bootstrap** apps and kernel
+
 ```
 pacstrap -K /mnt base base-devel linux linux-lts linux-headers linux-lts-headers linux-firmware git lvm2 networkmanager openssh os-prober sudo grub efibootmgr vim neovim nano man zsh ranger tmux bash 
 ```
+
 **Note:** This will take sometime to complete
 6. Generate **fstab**
 	1. `genfstab -U /mnt >> /mnt/etc/fstab`
@@ -105,6 +107,7 @@ pacstrap -K /mnt base base-devel linux linux-lts linux-headers linux-lts-headers
 11. Create `hostname` name it something like `Arch`
 	1. `nvim /etc/hostname` input `Arch` 
 12. Edit `/etc/mkinitcpio.conf` and run/input the following
+
 ```
 nvim /etc/mkinitcpio.conf
 Add "encrypt lvm2" in between "block and filesystems"
@@ -113,6 +116,7 @@ Add "encrypt lvm2" in between "block and filesystems"
 mkinitcpio -p linux
 mkinitcpio -p linux-lts
 ```
+
 13. Set up GRUB
 	1. Get the `disk UUID` by running `blkid /dev/nvme0n1p2` the drive label will be different or the same, write/save the `UUID` (This is case sensitive, be careful)
 		1. **NOTE: Double check the drive's UUID, do not use the root drive UUID you need to use the partition**
@@ -158,6 +162,7 @@ systemctl enable NetworkManager sddm
 # Also regenerate grub config file
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
 18. Finally, exit from `chroot` unmount all and reboot
 	1. Run `exit` once
 	2. `umount -R /mnt` unmounts all mounted volumes

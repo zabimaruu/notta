@@ -5,5 +5,8 @@ plugins:
 # set up remote_theme
 remote_theme: jekyll/minima
 
+minima:
+  skin: dark
+
 # Social media
 github_username:  zabimaruu

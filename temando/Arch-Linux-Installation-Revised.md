@@ -1,4 +1,4 @@
-[Go Back](/temando/)
+[Go Back](https://rmelendez.net)
 
 ## Installation
 As usual the *wiki* has it all, so follow it [Arch Wiki](https://wiki.archlinux.org/title/Installation_guide)

@@ -1,6 +1,9 @@
-theme: minima
+# Add to plugins: list
+plugins:
+  - jekyll-remote-theme
 
-tittle: Public Nottas
+# set up remote_theme
+remote_theme: jekyll/minima
 
 # Social media
 github_username:  zabimaruu

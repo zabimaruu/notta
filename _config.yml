@@ -4,3 +4,5 @@ plugins:
 
 # set up remote_theme
 remote_theme: pages-themes/midnight@v0.2.0
+
+tittle: [Public Notes]

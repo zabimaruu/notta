@@ -12,7 +12,7 @@
 - [Debian Fresh Installation Essentials](/temando/Debia-Essentials-FreshInstallation.md)
 
 ### Linux Optimizations
-- [Arch Linux System Optimization](/temando//home/noruu/Public/notta/temando/Arch-Linux-System-Optimizations.md)
+- [Arch Linux System Optimization](/temando/Arch-Linux-System-Optimizations.md)
 
 ### Linux Desktop Window Manager
-- [KDE Desktop](/temando//home/noruu/Public/notta/temando/KDE-Desktop-Environments.md)
+- [KDE Desktop](/temando/KDE-Desktop-Environments.md)

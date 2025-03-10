@@ -10,3 +10,9 @@
 - [Cross-Platform Application](/temando/Cross-Platform-Applications.md)
 - [Github Repos To Keep An Eye On](/temando/Awesome-Github-Repos-To-Keep-An-Eye-On.md)
 - [Debian Fresh Installation Essentials](/temando/Debia-Essentials-FreshInstallation.md)
+
+### Linux Optimizations
+- [Arch Linux System Optimization](/temando//home/noruu/Public/notta/temando/Arch-Linux-System-Optimizations.md)
+
+### Linux Desktop Window Manager
+- [KDE Desktop](/temando//home/noruu/Public/notta/temando/KDE-Desktop-Environments.md)

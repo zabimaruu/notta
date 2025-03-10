@@ -1,4 +1,4 @@
-# Public Notes
+<h1 style="text-align: center;">Public Notes</h1>
 
 ### E-Ink Devices
 - [Remarkable 2](/temando/Remarkable-2.md)

@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Public Notes</h1>
+<h1 style="text-align: center;">Nottas Nonclassified</h1>
 
 
 ### E-Ink Devices
@@ -21,3 +21,9 @@
 
 ### Containarization
 - [Docker Potential Issues & Solutions](/temando/Docker-Cross-Platform-CLI.md)
+
+### Interesting
+- [Must Learn More About](/temando/Must-Learn-More-About.md)
+
+### Supervisors
+- [Proxmox Tips and Tricks](/temando/Proxmox-Tricks-And-Tricks.md)

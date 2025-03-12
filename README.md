@@ -1,5 +1,8 @@
-<h1 style="text-align: center;">Nottas Nonclassified</h1>
+<h1 style="text-align: center;">Nonclassified Notta</h1>
 
+[E-Ink Devices](#e-ink-devices)
+[Self-made Installation Guides](#self-made-installation-guides)
+[Awesome](#awesome)
 
 ### E-Ink Devices
 - [Remarkable 2](/temando/Remarkable-2.md)
@@ -19,6 +22,9 @@
 ### Linux Desktop Window Manager
 - [KDE Desktop](/temando/KDE-Desktop-Environments.md)
 
+### Linux Applications
+- [Linux Applications Flatpak](/temando/Flatpak-Linux-Fundamentals.md)
+
 ### Containarization
 - [Docker Potential Issues & Solutions](/temando/Docker-Cross-Platform-CLI.md)
 
@@ -27,3 +33,6 @@
 
 ### Supervisors
 - [Proxmox Tips and Tricks](/temando/Proxmox-Tricks-And-Tricks.md)
+
+### MacOS
+- [MacOS](/temando/Macos.md)

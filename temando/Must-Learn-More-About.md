@@ -30,4 +30,10 @@
 **Websites** - Interesting websites and forums
 - [LWN](https://lwn.net/) - LWN.net is a reader-supported news site dedicated to producing the best coverage from within the Linux and free software development communities
 - [Hacker News](https://news.ycombinator.com/news) Hacker News, simple
-- 
+
+## Built-in System Tools (Linux)
+
+**[Systemd-inhibit](https://systemd.io/INHIBITOR_LOCKS/)** -  systemd 183 and newer include a logic to inhibit system shutdowns and sleep states
+
+## Note Taking App Alternatives
+- [Docs](https://github.com/suitenumerique/docs) - Docs is a collaborative text editor designed to address common challenges in knowledge building and sharing. *This project is backed by the French government*

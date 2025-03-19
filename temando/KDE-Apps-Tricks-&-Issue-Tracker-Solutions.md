@@ -1,5 +1,6 @@
 [Go Back](https://rmelendez.net)
 
+
 - When building *Plasma Applets* from *Source* make sure to have the following dependencies installed
 	-  `sudo pacman -S cmake extra-cmake-modules`
 - For *Plasma Thermal Monitor* [GitLab Repo](https://gitlab.com/agurenko/plasma-applet-thermal-monitor/-/tree/master) make sure to installe **1.1 Dependencies**
@@ -15,6 +16,8 @@
 3. Enable as needed, just don't leave it on all the time
 
 **Keybinds**
+*Note: For Meta+D to work you need to create a new `command or script` shortcut and add the following*
+`pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun`
 
 | Input        | Output                         |
 | ------------ | ------------------------------ |
@@ -27,6 +30,7 @@
 | Meta+Shift+< | Move Window to Previous Screen |
 | Meta+,       | Krohnkite:                     |
 | Meta+F       | Make Window Fullscreen         |
+| Meta+D       | Open Wofi/Closes it            |
 
 **KDE Reused Keybinds**
 
@@ -38,5 +42,7 @@
 | Meta+L           | Lock Session                   | Meta+Shift+P      |
 | Meta+Shift+Right | Move Window to Next Screen     | Meta+Shift+>      |
 | Meta+Shift+Left  | Move Window to Previous Screen | Meta+Shift+<      |
+| Meta+D           | Peek at Desktop                | Unassigned 3/2025 |
+|                  |                                |                   |
 
 

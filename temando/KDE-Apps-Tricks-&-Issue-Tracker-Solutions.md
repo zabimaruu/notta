@@ -16,19 +16,19 @@
 
 **Keybinds**
 
-| Input            | Output                                      |
-| ---------------- | ------------------------------------------- |
-| Meta + Q         | *Close Window*                              |
-| Meta + J         | *Krohnkite: Focus Down*                     |
-| Meta + H         | *Krohnkite: Focus Left*                     |
-| Meta + L         | *Krohnkite: Focus Right*                    |
-| Meta + K         | *Krohnkite: Focus Up*                       |
-| Meta + Shift + > | *Krohnkite: Move Window To Next Screen*     |
-| Meta + Shift + < | *Krohnkite: Move Window To Previous Screen* |
-| Meta + ,         | *Krohnkite: *                               |
-| Meta + F         | Make Window Fullscreen                      |
-**KDE Reused Keybinds**
+| Input        | Output                         |
+| ------------ | ------------------------------ |
+| Meta+Q       | Close Window                   |
+| Meta+J       | Krohnkite: Focus Down          |
+| Meta+H       | Krohnkite: Focus Left          |
+| Meta+L       | Krohnkite: Focus Right         |
+| Meta+K       | Krohnkite: Focus Up            |
+| Meta+Shift+> | Move Window to Next Screen     |
+| Meta+Shift+< | Move Window to Previous Screen |
+| Meta+,       | Krohnkite:                     |
+| Meta+F       | Make Window Fullscreen         |
 
+**KDE Reused Keybinds**
 
 | **Input**        | **Output**                     | New               |
 | ---------------- | ------------------------------ | ----------------- |
@@ -36,3 +36,7 @@
 | Meta             | Activate Application Launcher  | Alt               |
 | Meta+Q           | Show Activity Switcher         | Unassigned 3/2025 |
 | Meta+L           | Lock Session                   | Meta+Shift+P      |
+| Meta+Shift+Right | Move Window to Next Screen     | Meta+Shift+>      |
+| Meta+Shift+Left  | Move Window to Previous Screen | Meta+Shift+<      |
+
+

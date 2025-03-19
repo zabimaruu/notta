@@ -1,5 +1,7 @@
 <h1 style="text-align: center;">Nonclassified Notta</h1>
 
+# Table of Content
+
 - [E-Ink Devices](#e-ink-devices)
 - [Self-made Installation Guides](#self-made-installation-guides)
 - [Awesome](#awesome)
@@ -36,3 +38,6 @@
 
 ### MacOS
 - [MacOS](/temando/Macos.md)
+
+### KDE
+- [KDE Apps, Tricks, Issues & Solutions](/temando/KDE-Apps-Tricks-&-Issue-Tracker-Solutions.md)

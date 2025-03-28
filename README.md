@@ -23,6 +23,7 @@
 
 ### Linux Desktop Window Manager
 - [KDE Desktop](/temando/KDE-Desktop-Environments.md)
+- [Sway](/temando/Sway.md)
 
 ### Linux Applications
 - [Linux Applications Flatpak](/temando/Flatpak-Linux-Fundamentals.md)
@@ -41,3 +42,6 @@
 
 ### KDE
 - [KDE Apps, Tricks, Issues & Solutions](/temando/KDE-Apps-Tricks-&-Issue-Tracker-Solutions.md)
+
+### Windows Applications
+- [Sumatra PDF](/temando/SumatraPDF-Keybinds.md)

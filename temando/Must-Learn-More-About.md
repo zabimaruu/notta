@@ -37,3 +37,15 @@
 
 ## Note Taking App Alternatives
 - [Docs](https://github.com/suitenumerique/docs) - Docs is a collaborative text editor designed to address common challenges in knowledge building and sharing. *This project is backed by the French government*
+
+## CLI Tools
+- [Taskwarrior](https://taskwarrior.org/) - Taskwarrior manages your TODO list from the command line it is flexible, fast, and unobtrusive. It does the job then gets out of your way
+- [SFTPgo](https://github.com/drakkan/sftpgo) - Full-featured and highly configurable event-driven file transfer solution. Server protocols: SFTP, HTTP/S, FTP/S, WebDAV. Storage backends: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage, other SFTP servers
+
+## Guides
+- [Wireguard On OpenWRT](https://dariusz.wieckiewicz.org/en/installing-vpn-server-on-router-openwrt-wireguard/) - Great Guide, I need to organize it more and test it a bit more
+- [Learn Git In Detail](https://www.freecodecamp.org/news/learn-git-in-detail-to-manage-your-code/) - Great Youtube Video, Must complete by end of 4/2025
+
+## Courses
+- [Free Courses For Everyone](https://github.com/MasterBrian99/Free-Courses-For-Everyone?tab=readme-ov-file) - Free courses
+- 

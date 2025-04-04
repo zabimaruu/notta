@@ -45,3 +45,7 @@
 
 ### Windows Applications
 - [Sumatra PDF](/temando/SumatraPDF-Keybinds.md)
+
+## Windows Notes
+- [Windows Tools](/temando/Windows-Tools.md)
+- [Windows Guides](/temando/Windows-Guides.md)

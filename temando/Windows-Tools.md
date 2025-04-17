@@ -3,7 +3,7 @@
 ## PowerShell
 Updating Winget
 *Note: Looks like windows comes with an old version of  `Winget` which does not work really well*
-```pwsh
+```
 Add-AppxPackage -Path '[Path_to_.msixbundle]' -ForceApplicationShutdown
 ```
 Replace `Path_to_msixbundle` with the link of the latest released on GitHub
@@ -22,7 +22,7 @@ Config Location
 - Navigate to *"C:\Program Files\Alacritty"*
 - Create a new shortcut for *Alacritty.exe*
 - Right Click > Properties > Target Text Box > "C:\Program Files\Alacritty\alacritty.exe" -e wsl ~
-- -e wsl ~ *these are the parameters to add at the end of Target Text Box*
+- `-e wsl ~` *these are the parameters to add at the end of Target Text Box*
 ---
 ## Package Managers
 ### Scoop
@@ -42,8 +42,7 @@ scoop install nerd-fonts/Agave-NF-Mono
 All other fonts can be found in *scoop* main website
 
 ```
-
-## Terminal Config & Tricks
+# Terminal Config & Tricks
 
 To change *Copy/Paste* action on Windows Terminal change these commands within *Setting.json* 
 

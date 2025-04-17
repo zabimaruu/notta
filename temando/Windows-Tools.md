@@ -9,7 +9,6 @@ Add-AppxPackage -Path '[Path_to_.msixbundle]' -ForceApplicationShutdown
 Replace `Path_to_msixbundle` with the link of the latest released on GitHub
 *Note: make sure to run terminal as Administrator*
 
----
 ## Terminals
 ### Alacritty
 One of the best and fastest Terminals [Installation](https://github.com/alacritty/alacritty)
@@ -23,7 +22,7 @@ Config Location
 - Create a new shortcut for *Alacritty.exe*
 - Right Click > Properties > Target Text Box > "C:\Program Files\Alacritty\alacritty.exe" -e wsl ~
 - `-e wsl ~` *these are the parameters to add at the end of Target Text Box*
----
+
 ## Package Managers
 ### Scoop
 Scoop install programs you know and love, from the command line with a minimal amount of friction. > [Installation](https://scoop.sh/)
